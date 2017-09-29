@@ -503,7 +503,11 @@ CONFIG_MIGRATION=y
 CONFIG_ZONE_DMA_FLAG=0
 CONFIG_BOUNCE=y
 CONFIG_KSM=y
+<<<<<<< HEAD:arch/arm/configs/new_j3xnlte_defconfig
 CONFIG_OPTIMIZE_KSM=y
+=======
+# CONFIG_OPTIMIZE_KSM is not set
+>>>>>>> 05fcbd25... kernel: enable KSM for page merging:arch/arm/configs/j3xlte_permissive_defconfig
 CONFIG_KSM_ASSEMBLY_MEMCMP=y
 CONFIG_ADAPTIVE_KSM=y
 CONFIG_DEFAULT_MMAP_MIN_ADDR=4096
