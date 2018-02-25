@@ -12,7 +12,7 @@ export CROSS_COMPILE=/home/hasier/arm-eabi-4.8/bin/arm-eabi-
 export ARCH=arm
 
 PLATFORM=sc8830
-DEFCONFIG=j3x_defconfig
+DEFCONFIG=j3xnlte_defconfig
 
 KERNEL_PATH=$(pwd)
 MODULE_PATH=~/out/target/product/j3xnlte/lib/modules
